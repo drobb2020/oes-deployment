@@ -1,0 +1,3 @@
+ice -l ice.log -v -C -a -S SCH -f C:\fakepath\edirectory-schema.sch -v -D LDAP -s excs-s8200.excession.org -p636 -d cn=admin,ou=services,o=excs -L C:\fakepath\cert.der
+
+ice -l ice.log -S LDIF -f /root/edirectory-schema.ldif -v -D LDAP -s 192.168.2.200 -p 636 -L -d cn=admin,ou=services,o=excs -W -v
